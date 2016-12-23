@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sagarpreetchadha.topmovies.MainActivity">
+    <item
+        android:id="@+id/sortby"
+        android:orderInCategory="100"
+        android:title="Sort By"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/votecount"
+        android:orderInCategory="100"
+        android:title="Vote Count"
+        app:showAsAction="never" />
+</menu>
